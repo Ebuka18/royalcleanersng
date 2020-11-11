@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home3/royalcm3/public_html/
+    - /bin/cp -r * $DEPLOYPATH
+    # - /bin/cp .htaccess $DEPLOYPATH
